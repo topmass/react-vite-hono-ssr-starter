@@ -150,7 +150,8 @@ plugins: [
   cloudflare({ experimental:{remoteBindings:true} }),
   ssrPlugin(),
 ]
-```*⚠ Do not change the order unless you know why.*
+```
+*⚠ Do not change the order unless you know why.*
 
 ---
 
