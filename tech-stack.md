@@ -163,13 +163,13 @@ plugins: [
 ---
 
 ## 10  Quick reference – do's & don'ts
-✔ Do put **all** browser code in `src/react-app`.
-✔ Do group backend APIs under `/api/*`.
-✔ Do leave the HTML shell & React-Refresh preamble untouched.
-✔ Do run **`npm run dev`**, never raw `vite dev`.
-❌ Don't serve assets from the Worker; let Vite/static binding do it.
-❌ Don't reorder `vite.config.ts` plugins.
-❌ Don't add Node‐only libraries unless `nodejs_compat` is enabled.
+- ✔ Do put **all** browser code in `src/react-app`.
+- ✔ Do group backend APIs under `/api/*`.
+- ✔ Do leave the HTML shell & React-Refresh preamble untouched.
+- ✔ Do run **`npm run dev`**, never raw `vite dev`.
+- ❌ Don't serve assets from the Worker; let Vite/static binding do it.
+- ❌ Don't reorder `vite.config.ts` plugins.
+- ❌ Don't add Node‐only libraries unless `nodejs_compat` is enabled.
 
 That's everything a junior dev (or another AI) needs to ship features confidently with this template 🚀!
 
