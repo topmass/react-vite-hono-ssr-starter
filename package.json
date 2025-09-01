@@ -15,9 +15,11 @@
     "publish": true
   },
   "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "hono": "4.8.2",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-router-dom": "^7.8.2"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.7.5",

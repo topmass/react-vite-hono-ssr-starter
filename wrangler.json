@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sunday6",
-  "main": "./src/worker/index.tsx",
+  "main": "./src/workers-backend/index.tsx",
   "compatibility_date": "2025-07-27",
   "compatibility_flags": [
     "nodejs_compat"
@@ -12,5 +12,21 @@
   "upload_source_maps": true,
   "assets": {
     "directory": "./dist/client"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "main-database",
+      "database_id": "placeholder-database-id-replace-with-real-id"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "ASSETS",
+      "bucket_name": "app-assets-bucket"
+    }
+  ],
+  "vars": {
+    "EXAMPLE_VAR": "placeholder-value"
   }
 }

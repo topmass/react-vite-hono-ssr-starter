@@ -1,0 +1,11 @@
+# Backend Environment Variables (read by Wrangler during development)
+# Copy this file to dev.vars and set your actual values
+
+# Example secret API key
+SECRET_API_KEY=your-secret-api-key-here
+
+# Example database connection string
+DATABASE_URL=your-database-connection-string
+
+# Example third-party service credentials
+THIRD_PARTY_SERVICE_TOKEN=your-service-token-here

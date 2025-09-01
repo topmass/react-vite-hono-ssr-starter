@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     cloudflare({
-      experimental: { remoteBindings: true },
+      experimental: { remoteBindings: false },
     }),
     ssrPlugin(),
   ],
